@@ -1,0 +1,114 @@
+@import url("../webfonts/thaisansneue/stylesheet.css");
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+
+.body-color,.header-color{
+	background-color:#fff;
+}
+.input-search{
+  width:100%;
+  background-color:#88d1cc;
+  font-family:'ThaiSansNeue-Regular';
+  font-size:14pt;
+  color:#fff;
+  border:none;
+  border-radius: 25px;
+  height: 20px;
+  text-align:center;
+  padding-right:30px;
+}
+.input-search-icon{
+	position:absolute;
+	margin-top:5px;
+	margin-left:4px;
+	color:#fff;
+}
+
+
+.menu-hr{
+	margin-top:0px;
+	margin-left:28px;
+	margin-bottom:0px;
+}
+
+.card-sec-icon{
+	position:absolute;
+	top:31%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.card-icon{
+	border-radius: 50%;
+	border:solid 2px #fff;
+	width:70px;
+	height:70px;
+}
+.card-title-text{
+	font-family:'ThaiSansNeue-Bold';
+	font-size:14pt;
+	text-align:center;
+	margin-top:42px;
+	color:#38B980;
+}
+.card-content-text{
+	font-family:'ThaiSansNeue-Regular';
+	font-size:12pt;
+	padding-top:5px;
+	padding-left:10%;
+	padding-right:10%;
+	text-align:center;
+}
+.card-margin-bottom{
+	margin-bottom:15px;
+}
+.card-margin{
+	margin-right:5%;
+	margin-left:5%;
+}
+
+
+
+/*===========================
+CLASS DIRECTORY PAGE
+============================*/
+.pokemon-list{
+    list-style-type: none;
+    font-family:'ThaiSansNeue-Regular';
+    padding-left: 15px;
+    margin-top: 30px;
+}
+.pokemon-cp{
+    font-size: 14pt;
+    color: #38B980;
+    margin-left: 15px;
+}
+.pokemon-name{
+    font-size: 20pt;
+    margin-left: 15px;
+    margin-top: 0px;
+    color: #568661;
+}
+.pokemon-type{
+    font-size: 12pt;
+    margin-left: 15px;
+    margin-top: 0px;
+    color: #3597eb;
+}
+.pokemon-img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    float: left;
+}
+.none-decoration{
+    text-decoration:none;
+}
+.class-title{
+    color:#38B980;
+    font-family:'ThaiSansNeue-Bold';
+    font-size:14pt;
+}

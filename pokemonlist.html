@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF-8">
+    	<title>POKEDEX</title>
+    	<link rel="stylesheet" href="css/material.min.css">
+    	<link rel="stylesheet" href="css/style.css">
+    	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    	<script src="js/material.min.js"></script>
+    	<script src="js/jquery-3.1.0.min.js"></script>
+    	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  	</head>
+  	<body class="body-color">
+    	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    		<!-- HEADER -->
+    		<header class="mdl-layout__header mdl-layout__header--transparent" class="header-color">
+	        	<div class="mdl-layout__header-row" id="titleBar">
+                  <span id="classDirectory" class="mdl-layout-title class-title">POKEMON LIST</span>
+                  <div class="mdl-layout-spacer"></div>
+                  <span id="search-text" style="color:#38B980;font-family:'ThaiSansNeue-Regular';font-size:14pt;">ค้นหาโปเกม่อน</span>
+                </div>
+                
+                
+                <div id="sec-search" class="mdl-layout__header-row" style="padding-right:5%;padding-left:60px;display:none;">
+		        	<div class=" mdl-textfield mdl-js-textfield" style="width:100%;">
+						<div style="padding-right:60px;">
+							<i class="material-icons input-search-icon">search</i>
+                            <form id="search">
+			      	 		   <input type="text" class="mdl-textfield__input input-textfield input-search white-placeholder" placeholder="ค้นหาโปเกม่อน">
+                            </form>
+			      	 	</div>
+			     	</div>
+		     	</div>
+      		</header>
+            <main class="mdl-layout__content">
+		        <!-- CARD CONTENR -->
+		      	<div class="card-margin">
+			     	<div class="mdl-card mdl-shadow--4dp " style="width:100%;margin-top:5px;border-radius:5px;">
+                        <ul class="pokemon-list">
+                            <li>
+                                <!a href="profilePokemon.html" class="none-decoration">
+                                    <img src="img/Pikachu.png" class="pokemon-img">
+                                    <span class="pokemon-cp">CP: 5000 </span><br>                                    
+                                    <span class="pokemon-name">Name: Pikachu</span><br>
+                                    <span class="pokemon-type">Type: Electric</span>
+                                
+                                <hr style="margin-left:65px;margin-right:15px;margin-top:5px;">
+                                
+                            </li>
+                            
+                        </ul>
+					</div>
+				</div>
+        
+           <div class="card-margin">
+			     	<div class="mdl-card mdl-shadow--4dp " style="width:100%;margin-top:5px;border-radius:5px;">
+                        <ul class="pokemon-list">
+                            <li>
+                                
+                                    <img src="img/Poliwag.png" class="pokemon-img">
+                                    <span class="pokemon-cp">CP: 3000 </span><br>                                    
+                                    <span class="pokemon-name">Name: Poliwag</span><br>
+                                    <span class="pokemon-type">Type: Water</span>
+                                
+                                <hr style="margin-left:65px;margin-right:15px;margin-top:5px;">
+                                
+                            </li>
+                            
+                        </ul>
+					</div>
+				</div>
+                <div class="card-margin">
+			     	<div class="mdl-card mdl-shadow--4dp " style="width:100%;margin-top:5px;border-radius:5px;">
+                        <ul class="pokemon-list">
+                            <li>
+                                
+                                    <img src="img/psyduck.jpg" class="pokemon-img">
+                                    <span class="pokemon-cp">CP: 5000 </span><br>                                    
+                                    <span class="pokemon-name">Name: Psyducku</span><br>
+                                    <span class="pokemon-type">Type: Water</span>
+                                
+                                <hr style="margin-left:65px;margin-right:15px;margin-top:5px;">
+                                
+                            </li>
+                            
+                        </ul>
+					</div>
+				</div>
+                <div class="card-margin">
+			     	<div class="mdl-card mdl-shadow--4dp " style="width:100%;margin-top:5px;border-radius:5px;">
+                        <ul class="pokemon-list">
+                            <li>
+                                
+                                    <img src="img/Doduo.jpg" class="pokemon-img">
+                                    <span class="pokemon-cp">CP: 2000 </span><br>                                    
+                                    <span class="pokemon-name">Name: Doduo</span><br>
+                                    <span class="pokemon-type">Type: Normal / Flying</span>
+                                
+                                <hr style="margin-left:65px;margin-right:15px;margin-top:5px;">
+                                
+                            </li>
+                            
+                        </ul>
+					</div>
+				</div>
+                <div class="card-margin">
+			     	<div class="mdl-card mdl-shadow--4dp " style="width:100%;margin-top:5px;border-radius:5px;">
+                        <ul class="pokemon-list">
+                            <li>
+                                
+                                    <img src="img/Dratini.png" class="pokemon-img">
+                                    <span class="pokemon-cp">CP: 5000 </span><br>                                    
+                                    <span class="pokemon-name">Name: Dratini</span><br>
+                                    <span class="pokemon-type">Type: Dragonc</span>
+                                
+                                <hr style="margin-left:65px;margin-right:15px;margin-top:5px;">
+                                
+                            </li>
+                            
+                        </ul>
+					</div>
+				</div>
+                
+                
+                 	
+                
+                
+                
+                
+                
+                
+                
+                
+			</main>
+			<!-- END CONTENT -->
+    	</div>
+    	
+   	<script>
+   		$(function(){
+   			
+            
+            $('#search-text').click(function(){
+                $('#titleBar').hide();
+                $('#sec-search').show();
+            });
+   		});
+   	</script>
+	</body>
+</html>
